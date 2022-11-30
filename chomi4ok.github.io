@@ -2,10 +2,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>MIryna ONE PAGE</title>
+	<title>SiDownload</title>
   <style>
     body {
-      margin-left: 20%;
+      width: 100%;
+    }
+    main {
+      width:50%;
+      margin-left: 25%;
     }
     section {
       display: flex;
@@ -20,7 +24,6 @@
   }
 
   section .download {
-
     margin: 60px;
     background-color: green;
     text-decoration: none;
@@ -28,9 +31,13 @@
     padding: 2px;
     border-radius: 20px;
   }
+  #wersja p{
+    padding: 10px;
+  }
   </style>
 </head>
 <body>
+  <main>
 <section>
   <div class="main">
   <img src="si.png" width="60" height="60"></td>
@@ -45,10 +52,18 @@
   <section>
   <div>
     <p>Kupuj ubrania, dekoracje do domu, kosmetyki i zabawki jeszcze wygodniej!</p>
+    <b>OSTATNIA WERSJA</b>
   </div>
 </section>
+<section id="wersja">
+  <div>
+<p><b>Wersja</b> 1.4.2(7291)</p>
+<p><b>Aktualizuj</b> 23 lis 2022</p>
+<p><b>Deweloper</b> LPP S.A. E-commerce</p>
+<p><b>Google Play ID</b> com.lppsa.app.sinsay</p>
+</section>
+</main>
 <footer>
-(2022)
 </footer>
 </body>
 </html>

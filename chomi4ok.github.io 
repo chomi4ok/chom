@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>MIryna ONE PAGE</title>
   <style>
+    body {
+      margin-left: 20%;
+    }
     section {
       display: flex;
       padding: 0px;
